@@ -121,6 +121,8 @@ void printMonthCalender(int year, int month) {
 
 void printYearCalender(int year) {
 
+	cout << "               " << year << "\n";
+
 	for (int month = 1; month <= 12; month++) {
 
 		printMonthCalender(year, month);
